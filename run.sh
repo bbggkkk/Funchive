@@ -4,4 +4,4 @@ pip install --upgrade pip
 pip install -U -r req.txt
 nodeenv .nodeenv
 source .nodeenv/bin/activate
-node src/index.js
+npm run dev
