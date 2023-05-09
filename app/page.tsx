@@ -7,7 +7,7 @@ export default function Page() {
       <>
         <h1>Hello, Next.js!</h1>
         <button onClick={() => {
-          fetch('/api/test');
+          fetch('/api');
         }}>hi</button>
       </>
     );

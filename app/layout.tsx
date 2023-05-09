@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 
 const PRETENDARD = localFont({
     variable: '--default-font',
-    src: 'fonts/pretendard/PretendardVariable.woff2',
+    src: 'assets/fonts/pretendard/PretendardVariable.woff2',
     display: 'swap',
 });
 
