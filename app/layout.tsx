@@ -1,6 +1,8 @@
 import React from 'react';
 import localFont from 'next/font/local';
 
+import { useRouter } from 'next/router';
+
 const PRETENDARD = localFont({
     variable: '--default-font',
     src: 'assets/fonts/pretendard/PretendardVariable.woff2',
