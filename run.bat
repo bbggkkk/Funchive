@@ -1,8 +1,8 @@
 python -m venv .pyenv
-.pyenv\bin\activate
+.pyenv\Scripts\activate
 pip install --upgrade pip
 pip install -U -r req.txt
 nodeenv .nodeenv
-.nodeenv\bin\activate
+.nodeenv\Scripts\activate
 npm install
 npm run dev
