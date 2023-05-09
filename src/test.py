@@ -1,3 +1,3 @@
 import sys
 import streamlink
-print(1)
+print(f'$$ echso {sys.argv[1]}')
