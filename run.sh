@@ -1,6 +1,7 @@
 python -m venv venv
-source venv/bin/activate
+source pyenv/bin/activate
 pip install --upgrade pip
 pip install -U -r req.txt
-nodeenv venv
+nodeenv nodeenv
+source pyenv/bin/activate
 node src/index.js
