@@ -4,8 +4,7 @@ import { resolve } from 'path';
 
 
 export async function GET(request: Request) {
-    console.log(global.test)
-    return NextResponse.json({ result: 'hi' })
+
 }
 
 // type HandlerType = {
